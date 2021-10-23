@@ -12,10 +12,18 @@
             <RowDefinition Height="2*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <TextBlock TextWrapping="Wrap"
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <Image Source="head.png"
+                   Height="64"
+                   Width="64"
+                   Margin="0,0,32,0"/>
+            <TextBlock TextWrapping="Wrap"
                        FontSize="18"
                        TextAlignment="Center"
-                       Width="250">Hello <Bold>world!</Bold>
-        </TextBlock>
+                       Width="250">You've been playing Minecraft for over <Bold>1 year</Bold>! Would you like to log off and get a life?
+            </TextBlock>
+        </StackPanel>
     </Grid>
 </Window>
