@@ -25,5 +25,20 @@
                        Width="250">You've been playing Minecraft for over <Bold>1 year</Bold>! Would you like to log off and get a life?
             </TextBlock>
         </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Content="Ignore"
+                    Margin="16"/>
+            <Button Grid.Column="1"
+                    Margin="16"
+                    Content="Shutdown"/>
+            <Button Grid.Column="2"
+                    Margin="16"
+                    Content="Log off"/>
+        </Grid>
     </Grid>
 </Window>
