@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,21 @@ namespace MinecraftAlert
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Process.Start("shutdown", "/s /t 0");
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Process.Start("shutdown", "/l");
         }
     }
 }
