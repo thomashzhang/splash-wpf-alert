@@ -1,5 +1,5 @@
 # splash-wpf-alert
-Application built during our course
+Application built during our course asdf edit
 
 The presentation is [here](https://docs.google.com/presentation/d/1QRbMPqXr-1q5bcPk3gc8NZn8k3acmAc5NdoBDdvXWD4/edit?usp=sharing)
 
